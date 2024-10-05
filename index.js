@@ -1,0 +1,10 @@
+localStorage.setItem('name','Syaloni');
+let fullName = localStorage.getItem('name');
+console.log(fullname);
+localStorage.setItem('roll','10');
+localStorage.removeItem('name');
+localStorage.clear();
+console.log(localStorage.length());
+console.log(localStorage.key(0));
+localStorage.hobby = 'cooking';
+delete localStorage.hobby;
